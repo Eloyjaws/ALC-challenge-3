@@ -56,6 +56,7 @@ const onPageLoad = () => {
         })
         .then(res => generateCurrencyOptionsHtml(res))
         .then(initializeDropdowns)
+        .then(() => updateExchangeRate())
         .catch(err => {
             getCurrenciesFromIdb('allCurrencies')
                 .then(res => {
