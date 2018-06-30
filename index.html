@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+    <title>Current Currency Converter</title>
+</head>
+
+<body>
+    <div id="navbar" class="bg-primary">
+        <h2>Current Currency</h2>
+    </div>
+    <section id="main">
+        <div class="">
+            <h3>Convert Money</h3>
+        </div>
+
+
+        <div class="" id="select-fields">
+            <div class="input-field">
+                <label for="currency_converting" class="text-center">From</label>
+                <select name="currency_converting" id="currency-converting"></select>
+            </div>
+            <div class="input-field">
+                <label for="currency_converted" class="text-center">To</label>
+                <select name="currency_converted" id="currency-converted"></select>
+            </div>
+        </div>
+
+        <div class="">
+            <h2 id="converted-amount" class="d-none">__.__</h2>
+        </div>
+
+        <div class="">
+            <div class="input-field text-center">
+                <input type="number" class="text-center" name="amount" id="amount" placeholder="Enter amount...">
+            </div>
+        </div>
+        <div class="">
+                 <a class="no-decor" href="http://currencyconverterapi.com/">Powered by Currency Converter Api</a>
+        </div>
+    </section>
+
+    <script src="idb.js"></script>
+    <script src="indexedDB.js"></script>
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
