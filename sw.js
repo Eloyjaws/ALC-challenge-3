@@ -7,6 +7,8 @@ const cacheFiles = [
     './index.html',
     './index.js',
     './main.js',
+    './indexedDB.js',
+    './manifest.json',
     './style.css',
     'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600',
     'https://picsum.photos/1600/800/?image=4',
