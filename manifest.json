@@ -1,0 +1,7 @@
+{
+    "name": "Currency Converter",
+    "short_name": "Current-C",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#3E4EB8"
+  }
