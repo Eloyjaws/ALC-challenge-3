@@ -7,6 +7,7 @@ const cacheFiles = [
     './index.html',
     './index.js',
     './main.js',
+    './idb.js',
     './indexedDB.js',
     './manifest.json',
     './style.css',
