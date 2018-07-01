@@ -6,7 +6,7 @@ body {
     background: linear-gradient(
         rgba(40, 40, 40, 0.45), 
         rgba(40, 40, 40, 0.65)
-      ), url('https://picsum.photos/1600/800/?image=4') no-repeat;
+      ), url('https://picsum.photos/1600/800/?image=4') repeat;
       font-family: 'Source Sans Pro', sans-serif;
     /* font-family: 'Arial', 'Helvetica', sans-serif; */
     color: #FFF;
@@ -95,15 +95,23 @@ h2.text-dark {
 }
 
 select {
-    width: 12em;
+    width: 14em;
+    font-size: 16px;
     height: 3.5em;
     border: 6px solid rgba(230,230, 230, 0.7);
     border-radius: 3%;
     margin: 0px 12px 4px 12px;
 }
 
+@media(max-width:480px){
+    select {
+        width: 40vw;
+    }
+}
+
 input#amount {
-    width: 16em;
+    font-size: 16px;
+    width: 14em;
     height: 3.5em;
     border: 4px solid rgba(230,230, 230, 0.7);
     border-radius: 3%;
